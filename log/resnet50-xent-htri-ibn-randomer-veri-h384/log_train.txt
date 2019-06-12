@@ -1,0 +1,29 @@
+==========
+Args:Namespace(arch='resnet50', cuhk03_classic_split=False, cuhk03_labeled=False, dataset='veri', eval_step=10, evaluate=False, gamma=0.1, gpu_devices='0', height=224, htri_only=False, l2_reg=False, loss='xent,htri', lr=0.0003, margin=0.3, max_epoch=400, num_instances=4, optim='adam', print_freq=10, probability=0.5, random_erasing=True, resume='', root='./datasets/', save_dir='log/resnet50-xent-htri-ibn-randomer-veri-h384', save_fea=False, seed=1, split_id=0, start_epoch=0, start_eval=0, stepsize=20, test_batch=128, train_batch=4, use_cpu=False, use_metric_cuhk03=False, warmup=True, weight_decay=0.0005, width=224, workers=1)
+==========
+Currently using GPU 0
+Initializing dataset veri
+=> VERI loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  train    |   575 |    37746
+  query    |   200 |     1678
+  gallery  |   200 |    11579
+  ------------------------------
+  total    |   775 |    51003
+  ------------------------------
+Initializing model: resnet50
+Model size: 24.85312M
+==> Start training
+Epoch: [1][10/575]	Lr: 1.00e-04	Time 0.341 (1.170)	Data 0.035 (0.282)	Loss 6.3554 (6.3535)	
+XentLoss: 6.3554 (6.3535)	HtriLoss: 0.0000 (0.0000)	
+Epoch: [1][20/575]	Lr: 1.00e-04	Time 0.337 (0.756)	Data 0.036 (0.159)	Loss 6.3622 (6.3557)	
+XentLoss: 6.3622 (6.3557)	HtriLoss: 0.0000 (0.0000)	
+Epoch: [1][30/575]	Lr: 1.00e-04	Time 0.348 (0.617)	Data 0.038 (0.118)	Loss 6.3682 (6.3556)	
+XentLoss: 6.3682 (6.3556)	HtriLoss: 0.0000 (0.0000)	
+Epoch: [1][40/575]	Lr: 1.00e-04	Time 0.336 (0.547)	Data 0.036 (0.097)	Loss 6.3578 (6.3606)	
+XentLoss: 6.3578 (6.3606)	HtriLoss: 0.0000 (0.0000)	
+Epoch: [1][50/575]	Lr: 1.00e-04	Time 0.358 (0.506)	Data 0.038 (0.084)	Loss 6.3998 (6.3660)	
+XentLoss: 6.3998 (6.3660)	HtriLoss: 0.0000 (0.0000)	

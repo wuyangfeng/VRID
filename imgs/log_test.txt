@@ -1,0 +1,8 @@
+==========
+Args:Namespace(arch='resnet50', cuhk03_classic_split=False, cuhk03_labeled=False, dataset='market1501', eval_step=-1, evaluate=True, gamma=0.1, gpu_devices='0', height=256, lr=0.0003, max_epoch=60, optim='adam', print_freq=10, resume='log/resnet50-xent-htri-market1501-warmup/best_model.pth.tar', root='data', save_dir='imgs', seed=1, split_id=0, start_epoch=0, start_eval=0, stepsize=20, test_batch=32, train_batch=32, use_cpu=False, use_metric_cuhk03=False, weight_decay=0.0005, width=128, workers=4)
+==========
+Currently using GPU 0
+Initializing model: resnet50
+Model size: 24.94341M
+Evaluate only
+tensor([0.9490], device='cuda:0', grad_fn=<DivBackward1>)
